@@ -31,6 +31,13 @@
     background-color: blue;
     color: white;
     flex-grow: 0;
+    display: flex;
+}
+
+.hero-image-container {
+    width: 200px;
+    height: 100px;
+    background-color: grey;
 }
 
 .section1 {
