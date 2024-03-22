@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     /* border: 1px dotted red; */
 }
 
@@ -16,6 +15,16 @@
     background-color: darkblue;
     color: white;
     flex-grow: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 .hero {
@@ -49,4 +58,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
 }
