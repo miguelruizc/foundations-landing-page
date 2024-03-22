@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 .logo {
@@ -45,7 +45,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
+}
+
+.hero-left,
+.hero-right {
+    flex-grow: 1;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-left button {
+    align-self: flex-start;
 }
 
 .hero h1 {
@@ -58,14 +73,13 @@
     font-size: 18px;
     font-weight: normal;
     color: #E5E7EB;
-    margin-bottom: 20px;
 }
 
 .hero-image-container {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 280px;
     background-color: grey;
-    margin: 20px 40px;
+    margin: 20px;
 }
 
 .section1 {
@@ -77,7 +91,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 .section1 h2 {
@@ -104,9 +118,13 @@
 }
 
 .section1-image-container {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    border: 3px solid #3882F6;
+    overflow: hidden;
+    box-shadow: 5px;
+    margin-bottom: 10px;
 }
 
 .section2 {
@@ -119,7 +137,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 .quotee {
@@ -135,7 +153,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 .section3-rectangle {
@@ -143,7 +161,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
     gap: 20px;
     border-radius: 7px;
 }
@@ -156,7 +174,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 a {
@@ -172,6 +190,12 @@ button {
     border: none;
     border-radius: 7px;
     padding: 5px 30px;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+.rectangle-right {
+    display: flex;
 }
 
 .rectangle-button {
