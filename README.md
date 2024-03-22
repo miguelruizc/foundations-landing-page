@@ -1,2 +1,2 @@
 # foundations-landing-page
-TODO: Project description
+Landing page based on a given design. 
