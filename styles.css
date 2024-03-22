@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .logo {
@@ -34,7 +35,7 @@
     list-style: none;
     font-size: 18px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .hero {
@@ -44,6 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .hero h1 {
@@ -56,13 +58,14 @@
     font-size: 18px;
     font-weight: normal;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 .hero-image-container {
     width: 100px;
     height: 100px;
     background-color: grey;
-    margin: 20px;
+    margin: 20px 40px;
 }
 
 .section1 {
@@ -74,15 +77,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .section1 h2 {
     font-size: 36px;
     font-weight: extra-bold;
+    margin-bottom: 50px;
 }
 
 .section1-content {
     display: flex;
+    gap: 30px;
     
 }
 
@@ -113,6 +119,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .quotee {
@@ -128,6 +135,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
 }
 
 .section3-rectangle {
@@ -135,6 +143,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
+    gap: 20px;
+    border-radius: 7px;
 }
 
 .footer {
@@ -145,6 +156,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 40px;
 }
 
 a {
