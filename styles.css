@@ -44,6 +44,33 @@
     background-color: lightblue;
     color: black;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-content {
+    display: flex;
+    
+}
+
+.section1-item1,
+.section1-item2,
+.section1-item3,
+.section1-item4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section1-image-container {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
 }
 
 .section2 {
