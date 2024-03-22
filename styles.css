@@ -156,4 +156,12 @@ button {
     background-color: #3882F6;
     color: white;
     font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 30px;
+}
+
+.rectangle-button {
+    border: 1px solid white;
 }
