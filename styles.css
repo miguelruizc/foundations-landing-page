@@ -12,7 +12,7 @@
 }
 
 .header {
-    background-color: darkblue;
+    background-color:  #1F2937;
     color: white;
     flex-grow: 0;
     display: flex;
@@ -28,7 +28,7 @@
 }
 
 .hero {
-    background-color: blue;
+    background-color: #1F2937;
     color: white;
     flex-grow: 0;
     display: flex;
@@ -44,7 +44,7 @@
 }
 
 .section1 {
-    background-color: lightblue;
+    background-color: white;
     color: black;
     flex-grow: 1;
     display: flex;
@@ -76,7 +76,7 @@
 }
 
 .section2 {
-    background-color: grey;
+    background-color: #E5E7EB;
     color: black;
     flex-grow: 1;
     display: flex;
@@ -100,14 +100,14 @@
 }
 
 .section3-rectangle {
-    background-color: skyblue;
+    background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer {
-    background-color: darkblue;
+    background-color: #1F2937;
     color: white;
     flex-grow: 0;
     display: flex;
@@ -118,4 +118,8 @@
 a {
     text-decoration-line: none;
     color: white;
+}
+
+button {
+    background-color: #3882F6;
 }
