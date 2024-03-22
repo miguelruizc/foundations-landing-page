@@ -25,11 +25,14 @@
 
 .logo {
     color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header-links {
     color: #E5E7EB;
     list-style: none;
+    font-size: 18px;
     display: flex;
     gap: 10px;
 }
@@ -43,6 +46,18 @@
     align-items: center;
 }
 
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
+}
+
 .hero-image-container {
     width: 100px;
     height: 100px;
@@ -53,11 +68,17 @@
 .section1 {
     background-color: white;
     color: #1F2937;
+    font-size: 18px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section1 h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
 }
 
 .section1-content {
@@ -85,6 +106,8 @@
 .section2 {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -100,6 +123,7 @@
 .section3 {
     background-color: white;
     color: white;
+    font-size: 18px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -116,6 +140,7 @@
 .footer {
     background-color: #1F2937;
     color: white;
+    font-size: 18px;
     flex-grow: 0;
     display: flex;
     justify-content: center;
@@ -130,4 +155,5 @@ a {
 button {
     background-color: #3882F6;
     color: white;
+    font-size: 18px;
 }
