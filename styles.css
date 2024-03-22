@@ -2,4 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px dotted red;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+}
+
+.hero {
+    background-color: blue;
+    color: white;
+}
+
+.section1 {
+    background-color: lightblue;
+    color: black;
+}
+
+.section2 {
+    background-color: grey;
+    color: black;
+}
+
+.section3 {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    background-color: darkblue;
+    color: white;
 }
